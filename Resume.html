@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>11044142 個人履歷</title>
     <link rel="stylesheet" href="ResumeStyle.css">
+    <script>
+        x = document.getElementById("MyMusic");
+        x.volume = 0;
+    </script>
 </head>
 <body>
+    <audio id="MyMusic" src="music\Playlist.mp3" height=0 width=0 preload="auto" autoplay></audio>
     <nav>
         <div>
             <a href="#basic">
@@ -24,13 +29,13 @@
         <div>
             <a href="#hobby">
                 興趣<br>
-                技能
+                紋章
             </a>
         </div>
         <div>
             <a href="#achievement">
                 已取得<br>
-                成就
+                刻印
             </a>
         </div>
     </nav>
@@ -42,7 +47,12 @@
             <span class="Title">基本資料</span>
             <hr>
             <div class="Selfie">
-                <img src="image/personal.jpg" alt="My Photo Here!">
+                <div class="SelfieFrame">
+                    <img src="image/personal.jpg" alt="My Photo Here!">
+                    <div class="SelfieDetail">
+                        短髮時候的我w
+                    </div>
+                </div>
             </div>
             <div class="VerticleLine">
                 <hr class="Verticle">
@@ -70,19 +80,19 @@
                 </div>
             </div>
             <div class="Scription">
-                <span class="ScriptHead">名　字</span>:　廖偉翔<br>
-                <span class="ScriptHead">暱　稱</span>:　信Xin<br>
-                <span class="ScriptHead">學　系</span>:　資管二甲<br>
-                <span class="ScriptHead">目　標</span>:　喜歡遊戲、製作遊戲！<br>
-                <span class="ScriptHead">優　點</span>:　認真、負責、對萬事好奇<br>
-                <span class="ScriptHead">缺　點</span>:　急性子、完美主義者<br>
-                <span class="ScriptHead">座右銘：</span><br>
+                <br>
+                <span class="ScriptHead">角色姓名</span>:　廖偉翔<br>
+                <span class="ScriptHead">角色暱稱</span>:　信Xin<br>
+                <span class="ScriptHead">當前主線</span>:　中原大學 資管二甲<br>
+                <span class="ScriptHead">最終目標</span>:　喜歡遊戲、製作遊戲！<br>
+                <span class="ScriptHead">角色特色</span>:　認真、負責、對萬事好奇<br>
+                <span class="ScriptHead">角色個性</span>:　急性子、完美主義者<br>
+                <span class="ScriptHead">角色誓言：</span><br>
                 <div style="text-align: center;">
                     <span style="font-style:oblique; color:aqua;
                                 text-shadow: aqua 0 0 0.5em;
                                 text-decoration: underline; text-align: center;">
-                        「信是所望之事的實底，
-                        是未見之事的確據。」<br>
+                        「信是所望之事的實底，是未見之事的確據。」<br>
                         希伯來書 11:1
                     </span>
                 </div>
@@ -176,7 +186,7 @@
                                 </span>
                             </p>
                             <br>
-                            自學Minecraft中的程式約四年，目前已可以做出許多小功能，也教過其他人撰寫其中的程式。期望之後能夠完整透過MC學習遊戲架構。
+                            自學Minecraft中的程式約四年，目前已可以做出許多小功能，並活躍於創作團隊《甘草捆》，也教過其他人撰寫其中的程式。期望之後能夠完整透過MC學習遊戲架構。
                         </td>
                         <td class="Side">
                             <p class="SkillTitle">
@@ -240,16 +250,481 @@
             </div>        
         </article>
         <article id="hobby">
-            <span class="Title">興趣技能</span>
+            <span class="Title">興趣紋章</span>
             <hr>
+            <div class="TableContener">
+                <table>
+                    <tr>
+                        <td class="Row">
+                            <div class="Bubble"
+                                 tabindex="0"
+                                 style="background-color: lightgreen;
+                                        border-top: 3px rgb(175, 238, 175) solid;
+                                        border-left: 3px rgb(175, 238, 175)  solid;
+                                        border-bottom: 3px rgb(54, 233, 54)solid;
+                                        border-right: 3px rgb(54, 233, 54) solid;
+                                        color:black">
+                                音樂
+                            </div>
+                            <div class="Right"
+                                 style="background: linear-gradient(215deg, transparent 0%, rgb(1, 114, 1) 20%,  transparent 40%, transparent);">
+                                從國中開始就已經開始嘗試碰碰<span>鋼琴</span>，至今已經自學八年；在高中時與教會的朋友學<span>吉他</span>兩個月，至今練習約四年；常常時不時哼出旋律，擅長<span>即興哼唱與和聲</span>；自學<span>編曲設計</span>約五年，目前有三首<span>流行風格歌曲</span>以及無數首<span>遊戲或奇幻風格的純音樂</span>，實際上你<span>現在聽到的音樂就是出自曾經的我</span>，最近有一新曲<span>《歡迎回家》</span>。
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Row">
+                            <div class="Bubble"
+                                 style="background-color: orchid;
+                                        border-top: 3px rgb(218, 152, 215) solid;
+                                        border-left: 3px rgb(218, 152, 215) solid;
+                                        border-bottom: 3px rgb(219, 81, 215) solid;
+                                        border-right: 3px c solid;
+                                        color:black">
+                                文學
+                            </div>
+                            <div class="Right"
+                                 style="
+                                 background: linear-gradient(215deg, transparent 0%, rgb(110, 41, 108) 20%,  transparent 40%, transparent);">
+                                為了遊戲創作自行學習<span>寫作技巧</span>，有能力<span>架構世界觀與編撰劇情</span>，有許多尚未完成小說類故事；目前在教會中負責<span>編寫營會的背景故事</span>；曾在網路上發布<span>自己相關的遊記(FB)</span>與一些<span>對於自我人生的感受(IG)</span>；擅長<span>描述角色特色、個性、動作</span>，亦可以<span>作詩、幫歌曲寫詞</span>；現今<span>正在規劃全新的小說故事內容</span>。
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Row">
+                            <div class="Bubble"
+                                 style="background-color: burlywood;
+                                        border-top: 3px rgb(224, 199, 167) solid;
+                                        border-left: 3px rgb(224, 199, 167) solid;
+                                        border-bottom: 3px rgb(219, 154, 69) solid;
+                                        border-right: 3px rgb(219, 154, 69) solid;
+                                        color:black">
+                                美術
+                            </div>
+                            <div class="Right"
+                                 style="
+                                 background: linear-gradient(215deg, transparent 0%, rgb(105, 74, 33) 20%,  transparent 40%, transparent);">
+                                繪畫幾乎沒有練習過，僅在最近於IG上發布幾張練習的圖片作為<span>文章的視覺輔助</span>；對<span>建築與內裝設計</span>內容感興趣，時常<span>在Minecraft中嘗試模擬腦中的場景</span>；擅長<span>排版設計</span>，我想這一點就可以在本網頁看出來了。
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Row">
+                            <div class="Bubble"
+                                 style="background-color: cornflowerblue;
+                                        border-top: 3px rgb(145, 177, 236) solid;
+                                        border-left: 3px rgb(145, 177, 236) solid;
+                                        border-bottom: 3px rgb(50, 115, 236) solid;
+                                        border-right: 3px rgb(50, 115, 236) solid;
+                                        color:black;">
+                                活動<br>企劃
+                            </div>
+                            <div class="Right"
+                                 style="
+                                 background: linear-gradient(215deg, transparent 0%, rgb(27, 63, 131) 20%,  transparent 40%, transparent);">
+                                樂於<span>在營會或活動當中規劃各項事務</span>，排定時間、空間的等細項；也喜歡在當中<span>設計團康遊戲</span>，讓自己與他人都樂在其中；有能力能夠<span>創作包裝企劃的故事或劇情</span>，讓營會整體更增添一色。
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Row">
+                            <div class="Bubble"
+                                 style="background-color: indianred;
+                                        border-top: 3px rgb(207, 135, 135) solid;
+                                        border-left: 3px rgb(207, 135, 135) solid;
+                                        border-bottom: 3px rgb(201, 68, 68) solid;
+                                        border-right: 3px rgb(201, 68, 68) solid;
+                                        color:black">
+                                烹飪
+                            </div>
+                            <div class="Right"
+                                 style="
+                                 background: linear-gradient(215deg, transparent 0%, rgb(85, 29, 29)  20%,  transparent 40%, transparent);">
+                                曾在國中時候學過<span>烘焙</span>，熟悉基礎操作與材料的搭配應用；甚至因為<span>技職體驗</span>，差點要去讀<span>餐飲科</span>；也有過<span>義賣蛋塔並捐給養老院</span>的經驗；也在後來<span>跟著祖母學習烹飪</span>，為要傳承老人家的手藝，帶給下一代更美味的餐點；現於中原大學學生餐廳<span>〈魚夫人家〉</span>當工讀生。
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Row">
+                            <div class="Bubble"
+                                 style="background-color: rgb(255, 163, 57);
+                                        border-top: 3px rgb(250, 173, 85) solid;
+                                        border-left: 3px rgb(250, 173, 85) solid;
+                                        border-bottom: 3px rgb(253, 139, 8) solid;
+                                        border-right: 3px rgb(253, 139, 8) solid;
+                                        color:black">
+                                戲劇
+                            </div>
+                            <div class="Right"
+                                 style="
+                                 background: linear-gradient(215deg, transparent 0%, rgb(102, 56, 3)   20%,  transparent 40%, transparent);">
+                                喜歡模仿卡通或電視劇的角色，也<span>樂於在台上表演</span>；時常<span>揣摩不同角色的聲調、語氣</span>，也稍稍研究過<span>配音聲線</span>；勇於<span>挑戰不同角色</span>，已經放下偶像包袱，要帶給人們歡樂，也期待本次的<span>資管之夜</span>。
+                            </div>
+                        </td>
+                    </tr>
+                </table>
         </article>
         <article id="achievement">
-            <span class="Title">已獲得成就</span>
+            <span class="Title">已取得刻印</span>
             <hr>
+            <table class="Elementory">
+                <tr class="PeriodTitle">
+                    <td colspan="3">
+                       【華江國小時代】
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image\P1000538.JPG" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【資優班刻印 I】</span>
+                            <br>
+                            在小學三年級的時候進入資優班就讀四年，也因此開啟了新的視野。圖中的我拿著水火箭，認識新的科學世界。
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">
+                        <div class="DotCenter"></div>                            
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">
+                        <div class="DotCenter"></div>                            
+                    </td>
+                    <td class="ImageRight">
+                        <img src="image\P1140180.JPG" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【資優班刻印 II】</span>
+                            <br>
+                            在小學五年級的時候參加科學展覽，托展研究與發明路線。讓自己有的思考更有創意，大膽構想、謹慎實行。
+                        </div>
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image\P1160365.JPG" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【奧數刻印 I】</span>
+                            <br>
+                            在小學五年級的時候參加奧林匹克的國際比賽，2014年舉辦在中國的成都，也讓我認識到一群愛數學的好朋友。
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">
+                        <div class="DotCenter"></div>                            
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">
+                        <div class="DotCenter"></div>                            
+                    </td>
+                    <td class="ImageRight">
+                        <img src="image\IMG_20150728_163535.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【奧數刻印 II】</span>
+                            <br>
+                            在小學六年級的時候延續對數學的熱愛，2015年來到了泰國，也認識了更不同的國家文化與傳統。
+                        </div>
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">                        
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+            </table>
+            <table class="Junior">
+                <tr class="PeriodTitle">
+                    <td colspan="3">
+                        【南門國中時代】
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image\P_20161210_115821_vHDR_On.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【餐飲刻印 I】</span>
+                            <br>
+                            國中的時候因為喜歡吃，開始接觸烹飪與烘焙，樂在其中、也有美味的成果。
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">    
+                        <div class="DotCenter"></div>                     
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">    
+                        <div class="DotCenter"></div>                     
+                    </td>
+                    <td class="ImageRight">
+                        <img src="image/food.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【餐飲刻印 II】</span>
+                            <br>
+                            國中的時候由於對技職教育感到非常有興趣，樂於參加各樣的技職體驗活動，也選到了夢寐以求的餐飲。說實話，當時的我還真的以為我的職涯要走向大廚之路了，只可惜當時因為餐飲方面的成本過高，深怕自己負擔不起，才只好默默放棄，但依然有不少的興趣藏在心中。
+                        </div>
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image/33222867_1048776221936204_4620396418262106112_n.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【愛心刻印】</span>
+                            <br>
+                            由於心理因素，國中時多數時間待在輔導室。但也因此與老師共同參與志工，圖中是當時義賣蛋塔捐給養老院的活動。
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">    
+                        <div class="DotCenter"></div>                     
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">            
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">    
+                        <div class="DotCenter"></div>                     
+                    </td>
+                    <td class="ImageRight">
+                        <img src="image/Eletrical Eletronic3.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【電機電子刻印】</span>
+                            <br>
+                            除了接觸餐飲方面，我也曾經在電機電子學群體驗過一個學期。由於成績不錯，還被開南商工的老師訓練參加比賽，雖然沒有得名，但卻很開心有一群一同奮鬥的夥伴。即便來自不同學校，但我仍記得當時的開心時光。
+                        </div>            
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image/3d-printing.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【3D設計刻印】</span>
+                            <br>
+                            由於當時對於立體結構的美術建築有些心得，跑去參加了北科大的夏令營。當時候能看見新技術真的很開心，還記得那時有件斷了腿的雷射雕刻小馬作品靜靜地躺在家中的某個角落。
+                        </div>                        
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="SeparatorLong">    
+                        <div class="DotCenter"></div>                     
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">                       
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+            </table>
+            <table class="Senior">
+                <tr class="PeriodTitle">
+                    <td colspan="3">
+                        【士林高商時代】
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image/python.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【Python刻印】</span>
+                            <br>
+                            Python算是我第一個認真學習程式語言吧? 雖然在知前就已經學過相關的邏輯概念，但真正開始寫程式的啟蒙在這時候才開始。我還依稀老師有趣的教學方式，也挑起了我對於程式的熱情。
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">     
+                        <div class="DotCenter"></div>                    
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="SeparatorLong">    
+                        <div class="DotCenter"></div>                      
+                    </td>
+                    <td class="ImageRight">
+                        <img src="image\nightmare.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【Python刻印】 (續)</span>
+                            <br>
+                            在最後的期末報告中，我嘗試以所學的程式撰寫一個小小的遊戲《夢魘猜拳》。讓我練習以各樣的函數完成運作，甚至做出仿GUI的介面以及劇情等等，也讓我踏上遊戲製作的目標。
+                        </div>
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image/ppt.png" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>
+                                <a href="https://youtu.be/mqngVKkeKGY">
+                                    【動畫刻印】
+                                </a>
+                            </span>
+                            <br>
+                            <span>
+                                <a href="https://youtu.be/hrZiDJwJT84">
+                                    【剪輯刻印 I】
+                                </a>
+                            </span>
+                            <br>
+                            高中時開始鑽研PPT的簡報動畫技巧與影片剪輯的創意。
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">     
+                        <div class="DotCenter"></div>                    
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">    
+                        <div class="DotCenter"></div>                      
+                    </td>
+                    <td class="ImageRight">
+                        <img src="image\videoediting.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>
+                                <a href="https://youtu.be/c3PsYoEBqzo">
+                                    【音樂刻印】
+                                </a>
+                            </span>
+                            <br>
+                            <span>
+                                <a href="https://youtu.be/c3PsYoEBqzo">
+                                    【剪輯刻印 II】
+                                </a>
+                            </span>
+                            <br>
+                            在Youtube上透過影片開始分享自己滿意的音樂創作。
+                        </div>
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image/licenses.png" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【電腦丙級刻印】</span>
+                            <br>
+                            <span>【會計丙級刻印】</span>
+                            <br>
+                            <span>【軟體應用丙級刻印】</span>
+                            <br>
+                            在高職的時候由於想自行鑽研各類的商學證照等等，花了不少的時間分別準備，考取了三張專業證照來輔助自己的學習。也藉此發現，原來除了這些之外，也有更專業、更具有證明度的證照在未來的路上等著我。
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="SeparatorLong">    
+                        <div class="DotCenter"></div>                      
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">                       
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+            </table>
+            <table class="College">
+                <tr class="PeriodTitle">
+                    <td colspan="3">
+                        【中原大學時代】
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image\IMG_20221110_0001.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【英語刻印】</span>
+                            <br>
+                            大一的我在老師的推薦下面臨英語演講比賽的挑戰，站在台上的感覺非常不一樣。當初的壓力挺大的，難度也不簡單，能得到佳作根本是奇蹟啊！
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">             
+                        <div class="DotCenter"></div>             
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">             
+                        <div class="DotCenter"></div>             
+                    </td>
+                    <td class="ImageRight">
+                        <img src="image\IMG_20221110_0004.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【寫作刻印】</span>
+                            <br>
+                            或許正是因為我的人生路走的很不一樣，所以在撰寫生命故事的時候能夠有非常多的素材得以運用。也多虧曾經的自己有練習過寫作技巧，在這一次的比賽當中也是以班上最高分參加的。很開心有這樣的機會分享自己的故事，也很開心能夠被師長青睞！
+                        </div>
+                    </td>
+                </tr>
+                <tr class="ImageArrange">
+                    <td class="ImageLeft">
+                        <img src="image\painting.jpg" alt="" width="100%">
+                        <div class="ImageDetail">
+                            <span>【繪畫刻印】</span>
+                            <br>
+                            在今年年初時，母親去世的消息讓我備受打擊。經過了半年的休整，才決定將故事分享出來，成為許多人的祝褔。除了使用過去熟悉的文筆寫作，也嘗試開啟新的繪畫技能樹，成為一名新手圖文作家。
+                        </div>
+                    </td>
+                    <td class="ImageSeparator">
+                        <hr class="Separator">             
+                        <div class="DotCenter"></div>             
+                    </td>
+                    <td class="ImageRight">
+                    </td>
+                </tr>
+            </table>
         </article>
     </section>
     <footer>
-        <code>©廖偉翔 2022-11-10 版權所有</code>
+        <div>
+            <code>©廖偉翔 2022-11-10 版權所有</code>
+        </div>
     </footer>
 </body>
 </html>
